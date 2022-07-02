@@ -91,7 +91,7 @@ And you're done! The injection result will be printed in the terminal.
 
 1. Clone source coode
 ```
-git clone https://github.com/xf97/HuangGai
+git clone https://github.com/Our4514444/SCBugGenerator
 ```
 
 2. Install dependencies
@@ -99,7 +99,7 @@ git clone https://github.com/xf97/HuangGai
 *SCBugGenerator* needs to use [Slither](https://github.com/crytic/slither) and [Scrapy](https://github.com/scrapy/scrapy), so please use the following commands to install dependencies:
 
 ```
-cd HuangGai/
+cd SCBugGenerator/
 pip install --upgrade pip
 pip install rich
 pip install graphvi
