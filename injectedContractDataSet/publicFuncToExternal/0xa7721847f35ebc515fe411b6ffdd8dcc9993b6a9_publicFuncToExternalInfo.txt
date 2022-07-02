@@ -1,5 +1,0 @@
-line_number: 384
-line_number: 471
-line_number: 486
-line_number: 518
-line_number: 530

@@ -1,6 +1,0 @@
-line_number: 9
-line_number: 36
-line_number: 102
-line_number: 253
-line_number: 330
-line_number: 470

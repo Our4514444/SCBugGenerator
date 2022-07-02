@@ -1,3 +1,0 @@
-line_number: 45
-line_number: 67
-line_number: 347

@@ -1,3 +1,0 @@
-line_number: 785
-line_number: 1020
-line_number: 1055

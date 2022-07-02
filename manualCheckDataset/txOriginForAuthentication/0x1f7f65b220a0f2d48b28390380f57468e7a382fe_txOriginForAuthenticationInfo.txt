@@ -1,3 +1,0 @@
-line_number: 288
-line_number: 709
-line_number: 721
