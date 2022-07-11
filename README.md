@@ -91,7 +91,7 @@ And you're done! The injection result will be printed in the terminal.
 
 1. Clone source coode
 ```
-git clone https://github.com/Our4514444/SCBugGenerator
+git clone https://github.com/Our4514444/SCBugGenerator.git
 ```
 
 2. Install dependencies
