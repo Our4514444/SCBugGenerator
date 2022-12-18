@@ -1,0 +1,10 @@
+loc,length,bug type,approach
+20,4,tx.origin,code snippet injection
+127,4,tx.origin,code snippet injection
+111,4,tx.origin,code snippet injection
+95,4,tx.origin,code snippet injection
+20,5,tx.origin,code snippet injection
+15,4,tx.origin,code snippet injection
+42,4,tx.origin,code snippet injection
+35,4,tx.origin,code snippet injection
+9,4,tx.origin,code snippet injection

@@ -1,0 +1,8 @@
+loc,length,bug type,approach
+12,10,Overflow-Underflow,code snippet injection
+83,10,Overflow-Underflow,code snippet injection
+74,4,Overflow-Underflow,code snippet injection
+60,8,Overflow-Underflow,code snippet injection
+44,10,Overflow-Underflow,code snippet injection
+33,4,Overflow-Underflow,code snippet injection
+24,8,Overflow-Underflow,code snippet injection

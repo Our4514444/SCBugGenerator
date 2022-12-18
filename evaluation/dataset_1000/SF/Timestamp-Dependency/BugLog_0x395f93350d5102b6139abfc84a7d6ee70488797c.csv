@@ -1,0 +1,23 @@
+loc,length,bug type,approach
+418,1,Timestamp-Dependency,code snippet injection
+412,1,Timestamp-Dependency,code snippet injection
+406,1,Timestamp-Dependency,code snippet injection
+400,1,Timestamp-Dependency,code snippet injection
+394,1,Timestamp-Dependency,code snippet injection
+386,3,Timestamp-Dependency,code snippet injection
+379,3,Timestamp-Dependency,code snippet injection
+370,5,Timestamp-Dependency,code snippet injection
+361,4,Timestamp-Dependency,code snippet injection
+331,3,Timestamp-Dependency,code snippet injection
+322,5,Timestamp-Dependency,code snippet injection
+307,4,Timestamp-Dependency,code snippet injection
+285,5,Timestamp-Dependency,code snippet injection
+273,4,Timestamp-Dependency,code snippet injection
+264,3,Timestamp-Dependency,code snippet injection
+250,9,Timestamp-Dependency,code snippet injection
+242,3,Timestamp-Dependency,code snippet injection
+230,5,Timestamp-Dependency,code snippet injection
+220,9,Timestamp-Dependency,code snippet injection
+214,5,Timestamp-Dependency,code snippet injection
+203,9,Timestamp-Dependency,code snippet injection
+197,5,Timestamp-Dependency,code snippet injection

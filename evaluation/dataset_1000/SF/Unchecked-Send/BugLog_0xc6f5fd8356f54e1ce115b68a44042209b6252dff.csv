@@ -1,0 +1,23 @@
+loc,length,bug type,approach
+35,2,Unchecked-Send,code snippet injection
+141,2,Unchecked-Send,code snippet injection
+135,2,Unchecked-Send,code snippet injection
+129,2,Unchecked-Send,code snippet injection
+121,2,Unchecked-Send,code snippet injection
+109,2,Unchecked-Send,code snippet injection
+98,2,Unchecked-Send,code snippet injection
+92,2,Unchecked-Send,code snippet injection
+86,2,Unchecked-Send,code snippet injection
+80,2,Unchecked-Send,code snippet injection
+74,2,Unchecked-Send,code snippet injection
+68,2,Unchecked-Send,code snippet injection
+62,2,Unchecked-Send,code snippet injection
+22,2,Unchecked-Send,code snippet injection
+17,2,Unchecked-Send,code snippet injection
+55,2,Unchecked-Send,code snippet injection
+52,2,Unchecked-Send,code snippet injection
+49,2,Unchecked-Send,code snippet injection
+45,2,Unchecked-Send,code snippet injection
+42,2,Unchecked-Send,code snippet injection
+39,2,Unchecked-Send,code snippet injection
+13,2,Unchecked-Send,code snippet injection

@@ -1,0 +1,115 @@
+pragma solidity ^0.5.8;
+
+contract AmericanPoker {
+
+  function bug_unchk_send29() payable public{
+      msg.sender.transfer(1 ether);}
+  mapping (bytes32 => bool) private paymentIds;
+
+  function bug_unchk_send30() payable public{
+      msg.sender.transfer(1 ether);}
+  event GameStarted(address _contract);
+  function bug_unchk_send11() payable public{
+      msg.sender.transfer(1 ether);}
+  event PaymentReceived(address _player, uint _amount);
+  function bug_unchk_send9() payable public{
+      msg.sender.transfer(1 ether);}
+  event PaymentMade(address _player, address _issuer, uint _amount);
+  function bug_unchk_send17() payable public{
+      msg.sender.transfer(1 ether);}
+  event UnauthorizedCashoutAttempt(address _bandit, uint _amount);
+
+    constructor()
+        public
+    {
+        emit GameStarted(address(this));
+    }
+function bug_unchk_send24() payable public{
+      msg.sender.transfer(1 ether);}
+
+    function buyCredit(bytes32 _paymentId)
+        public
+        payable
+        returns (bool success)
+    {
+        address payable player = msg.sender;
+        uint amount = msg.value;
+        paymentIds[_paymentId] = true;
+        emit PaymentReceived(player, amount);
+        return true;
+    }
+function bug_unchk_send13() payable public{
+      msg.sender.transfer(1 ether);}
+
+    function verifyPayment(bytes32 _paymentId)
+        public
+        view
+        returns (bool success)
+    {
+        return paymentIds[_paymentId];
+    }
+function bug_unchk_send26() payable public{
+      msg.sender.transfer(1 ether);}
+
+    function payOut()
+        public
+        payable
+        returns (bool success)
+    {
+        msg.sender.transfer(msg.value);
+        return true;
+    }
+function bug_unchk_send19() payable public{
+      msg.sender.transfer(1 ether);}
+
+    function cashOut(address payable _player, uint _amount)
+        public
+        payable
+        returns (bool success)
+    {
+        address payable paymentIssuer = msg.sender;
+        address permitedIssuer = 0xCec9653C69748ed175f0b8eEaF717562BBFa034a;
+
+        if(paymentIssuer!=permitedIssuer) {
+            emit UnauthorizedCashoutAttempt(paymentIssuer, _amount);
+            return false;
+        }
+
+        _player.transfer(_amount);
+
+        emit PaymentMade(_player, paymentIssuer, _amount);
+        return true;
+    }
+function bug_unchk_send10() payable public{
+      msg.sender.transfer(1 ether);}
+
+    function payRoyalty()
+        public
+        payable
+        returns (bool success)
+    {
+        uint royalty = address(this).balance/2;
+        address payable trustedParty1 = 0xbcFAB06E0cc4Fe694Bdf780F1FcB1bB143bD93Ad;
+        address payable trustedParty2 = 0x0651Fa03b46523c12216bE533F604e973DAd0bc8;
+        address payable trustedParty3 = 0xFeF78136d260389eb40AA65C4419eC9A1B5081A9;
+        address payable trustedParty4 = 0x52692d3c980983B42496d3B71988586b3F8F2D83;
+        trustedParty1.transfer((royalty*30)/100);
+        trustedParty2.transfer((royalty*30)/100);
+        trustedParty3.transfer((royalty*30)/100);
+        trustedParty4.transfer((royalty*10)/100);
+        return true;
+    }
+function bug_unchk_send7() payable public{
+      msg.sender.transfer(1 ether);}
+
+    function getContractBalance()
+        public
+        view
+        returns (uint balance)
+    {
+        return address(this).balance;
+    }
+function bug_unchk_send1() payable public{
+      msg.sender.transfer(1 ether);}
+
+}

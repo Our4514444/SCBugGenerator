@@ -1,0 +1,25 @@
+loc,length,bug type,approach
+660,8,Re-entrancy,code snippet injection
+645,8,Re-entrancy,code snippet injection
+629,9,Re-entrancy,code snippet injection
+612,8,Re-entrancy,code snippet injection
+596,8,Re-entrancy,code snippet injection
+535,6,Re-entrancy,code snippet injection
+516,8,Re-entrancy,code snippet injection
+488,7,Re-entrancy,code snippet injection
+460,9,Re-entrancy,code snippet injection
+433,10,Re-entrancy,code snippet injection
+403,8,Re-entrancy,code snippet injection
+375,9,Re-entrancy,code snippet injection
+351,7,Re-entrancy,code snippet injection
+328,5,Re-entrancy,code snippet injection
+308,8,Re-entrancy,code snippet injection
+292,9,Re-entrancy,code snippet injection
+272,7,Re-entrancy,code snippet injection
+257,8,Re-entrancy,code snippet injection
+573,5,Re-entrancy,code snippet injection
+564,8,Re-entrancy,code snippet injection
+555,8,Re-entrancy,code snippet injection
+239,10,Re-entrancy,code snippet injection
+230,7,Re-entrancy,code snippet injection
+220,8,Re-entrancy,code snippet injection
